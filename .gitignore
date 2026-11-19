@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Node.js
+node_modules/
+dist/
+
+# Local database and uploads
+backend/leaf_disease.db
+backend/uploads/leaf_*
+!backend/uploads/sample_*
+
+# Env files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
